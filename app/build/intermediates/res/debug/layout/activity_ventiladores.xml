@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="180dp"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background4"
+    tools:context="com.cooperativa.casadomotica.Ventiladores" >
+    
+     <Switch
+	
+	       android:id="@+id/v_sala"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:text="@string/venti_sala"
+	       android:layout_gravity="center_vertical"
+	       android:textOn="Encender"
+	       android:textOff="Apagar"
+        />
+     
+     <Switch
+	
+	       android:id="@+id/v_alcoba"
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:paddingTop="5dp"
+	       android:text="@string/venti_alcoba"
+	       android:textOn="Encender"
+	       android:textOff="Apagar"
+        />    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/off_ventiladores"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/bt_apa_lu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Off"
+             />
+        
+    </LinearLayout>     
+
+</LinearLayout>
+<!-- From: file:/home/andresdev/AndroidStudioProjects/CasaDomotica/app/src/main/res/layout/activity_ventiladores.xml -->

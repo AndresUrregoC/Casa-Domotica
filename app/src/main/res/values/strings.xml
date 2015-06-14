@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Casa Domótica</string>
+    <string name="hello_world">Encendiendo un led</string>
+    <string name="menu_settings">Opciones</string>
+    <string name="title_activity_main">Led</string>
+    <string name="bluetooth">Conectarse a</string>
+    <string name="On">Encender</string>
+    <string name="Off">Apagar</string>
+    <string name="vacio"></string>
+    <string name="Desconexion">Desconectar</string>
+    <string name="casa_d">Mi Casa Domótica</string>
+    <string name="title_activity_luces">Luces</string>
+    <string name="action_settings">Settings</string>
+    <string name="l_sala">Luz Sala</string>
+    <string name="p_principal">Luz Puerta Principal</string>
+    <string name="l_alcoba_uno">Luz Alcoba Uno</string>
+    <string name="l_alcoba_dos">Luz Alcoba Dos</string>
+    <string name="l_bano_alcoba">Luz Baño Alcoba</string>
+    <string name="l_bano_princi">Luz Baño Principal</string>
+    <string name="l_cocina">Luz Cocina</string>
+    <string name="l_comedor">Luz del Comedor</string>
+    <string name="l_jardin">Luz del Jardín</string>
+    <string name="off_luces">Apagar Luces</string>
+    <string name="off_ventiladores">Apagar Ventiladores</string>
+    <string name="title_activity_domo">Domo</string>
+    <string name="d_patio">Domo Patio</string>
+    <string name="title_activity_ventana">Ventana</string>
+    <string name="ventana">Ventana</string>
+    <string name="title_activity_perciana">Perciana</string>
+    <string name="perciana">Perciana</string>
+    <string name="title_activity_puertas">Puertas</string>
+    <string name="puerta_entrada">Puerta Entrada</string>
+    <string name="puerta_pieza">Puerta Pieza</string>
+    <string name="title_activity_ventiladores">Ventiladores</string>
+    <string name="venti_sala">Ventilador Sala</string>
+    <string name="venti_alcoba">Ventilador Alcoba</string>
+    <string name="title_activity_temperaturas">Temperaturas</string>
+    <string name="tem_sala">Temperatura Sala</string>
+    <string name="tem_alcoba">Temperatura Alcoba</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_alarma">Alarma</string>
+    <string name="apagar_a">Apagar Alarma</string>
+   
+
+</resources>

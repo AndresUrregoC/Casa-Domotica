@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.cooperativa.casadomotica.Luces" >
+    
+   
+
+        <Switch
+            android:id="@+id/l_alcobau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l_alcoba_uno"
+            android:textColor="#fff"
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+        
+         <Switch
+            android:id="@+id/l_sala"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l_sala"
+            android:textColor="#fff" 
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+         
+         <Switch
+            android:id="@+id/l_cocina"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l_cocina"
+            android:textColor="#fff"
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+         <Switch
+            android:id="@+id/l_banop"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l_bano_princi"
+            android:textColor="#fff"
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+         
+         <Switch
+            android:id="@+id/l_banoa"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l_bano_alcoba"
+            android:textColor="#fff"
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+         
+          <Switch
+            android:id="@+id/l_comedor"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l_comedor"
+            android:textColor="#fff"
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+          
+           <Switch
+            android:id="@+id/l_alcobad"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l_alcoba_dos"
+            android:textColor="#fff"
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+           
+           <Switch
+            android:id="@+id/p_principal"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/p_principal"
+            android:textColor="#fff"
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+           <Switch
+            android:id="@+id/l_jardin"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l_jardin"
+            android:textColor="#fff"
+            android:textOn="Encendido"
+            android:textOff="Apagado"
+             />
+           
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+        
+        <TextView 
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/off_luces"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/bt_apa_lu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Off"
+            
+             />
+        
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/home/andresdev/AndroidStudioProjects/CasaDomotica/app/src/main/res/layout/activity_luces.xml -->

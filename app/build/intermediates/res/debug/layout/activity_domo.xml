@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background4"
+    tools:context="com.cooperativa.casadomotica.Domo" >
+
+    <Switch
+        android:id="@+id/domo_patio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d_patio"
+        android:layout_gravity="center_vertical"
+        android:textOn="Abrir"
+        android:textOff="Cerrar" />
+
+</LinearLayout>
+<!-- From: file:/home/andresdev/AndroidStudioProjects/CasaDomotica/app/src/main/res/layout/activity_domo.xml -->
